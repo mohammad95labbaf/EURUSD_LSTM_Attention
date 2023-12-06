@@ -24,29 +24,25 @@ Feel free to explore the code, dive into the details, and contribute to the ongo
 
 ## How to Use
 
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/yourusername/forex-prediction.git
-   cd forex-prediction
-   ```
+Certainly! Here's a more formal step-by-step guide on how to use the code with your `EURUSD_H1.csv` file in Google Colab:
 
-2. **Install Dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   ```
+---
 
-3. **Explore the Notebooks:**
-   - Dive into the Jupyter notebooks to understand each step of the process.
-   - Customize and experiment with the model architecture to suit your needs.
+### Project Usage Guide for Google Colab
 
-4. **Train Your Model:**
-   - Utilize your own dataset or modify the provided data preparation steps.
-   - Adjust hyperparameters during the training phase to optimize your model.
+#### 1. Upload Data to Google Colab
 
-5. **Contribute:**
-   - If you find areas for improvement or have new ideas, feel free to contribute to the project.
-   - Open issues for bugs, feature requests, or discussions.
+- Open [Google Colab](https://colab.research.google.com/).
+- Create a new notebook or open an existing one.
+- Use the following code to upload your CSV file:
 
-## Acknowledgments
+    ```python
+    from google.colab import files
 
-This project is a collaborative effort, and contributions from the community are highly valued. Special thanks to all contributors for their insights and dedication to advancing the field of forex prediction using deep learning.
+    # Upload your CSV file
+    uploaded = files.upload()
+    ```
+
+    Click on the "Choose Files" button, select your `EURUSD_H1.csv` file, and wait for the upload to complete.
+
+
